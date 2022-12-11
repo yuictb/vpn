@@ -1,0 +1,2 @@
+2022-12-11 10:20:52,444 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.34 - 2022/08/18 | C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\v2rayN.exe
+2022-12-11 10:21:52,964 [4] INFO  Log1 - UpdateTaskRun

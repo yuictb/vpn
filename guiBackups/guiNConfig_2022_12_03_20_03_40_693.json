@@ -1,0 +1,588 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "5105317368833866669",
+  "muxEnabled": false,
+  "sysProxyType": 1,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": null,
+  "domainStrategy4Freedom": null,
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": null,
+  "routingIndex": 0,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "checkPreReleaseUpdate": false,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "4762268024935415055",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "http://69.12.89.81/link/7b8b3ef552f2a443?sub=3",
+      "port": 8081,
+      "id": "0d7729b6-24e0-40d4-ab4b-c67b8bf441be",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "ctys",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "testResult": "基础连接已经关闭: 发送时发生错误。",
+      "subid": "",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "4847984188038012437",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg1.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "HK sg1 香港pccw",
+      "headerType": "none",
+      "requestHost": "sg1.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "false",
+      "testResult": "   227ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg1.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5128752056695806554",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg5.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "JP sg5 日本",
+      "headerType": "none",
+      "requestHost": "sg5.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   410ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg5.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5701357146059011421",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg2.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "JP 日本 sg2 virmach",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   787ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5613294949130681539",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "zf.sh.cu.edu.kg",
+      "port": 16565,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "JP 日本 sg4",
+      "headerType": "none",
+      "requestHost": "sg4.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   975ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg4.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5527958157991224404",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg10.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "SG sg10 绿云新加坡",
+      "headerType": "none",
+      "requestHost": "sg10.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "    24ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg10.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "4932971107337600699",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg3.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "US sg3 美西圣何塞",
+      "headerType": "none",
+      "requestHost": "sg3.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   428ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg3.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5232353001754264801",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg6.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "US sg6 洛杉矶9929",
+      "headerType": "none",
+      "requestHost": "sg6.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   673ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg6.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5197497414587729507",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "zf.sh.cu.edu.kg",
+      "port": 17837,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "US sg7 dedipath圣何赛",
+      "headerType": "none",
+      "requestHost": "sg7.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   425ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg7.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5105317368833866669",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "sg9.6yhy.top",
+      "port": 443,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "US sg9 digitalvirt洛杉矶",
+      "headerType": "none",
+      "requestHost": "sg9.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "   738ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg9.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5642973847443300398",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 0,
+      "address": "zf.hn.cu.edu.kg",
+      "port": 17241,
+      "id": "de9637a7-c39b-3973-ace4-64f463e765eb",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "VN sg8 越南",
+      "headerType": "none",
+      "requestHost": "sg8.6yhy.top",
+      "path": "/6yhy",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "testResult": "    41ms",
+      "subid": "5357702797749941575",
+      "flow": "",
+      "sni": "sg8.6yhy.top",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [
+    {
+      "id": "5357702797749941575",
+      "remarks": "import sub",
+      "url": "http://69.12.89.81/link/7b8b3ef552f2a443?sub=3",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    }
+  ],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainLocation": "0, 986",
+    "mainSize": "199, 34",
+    "mainLvColWidth": {
+      "def": 33,
+      "configType": 57,
+      "remarks": 201,
+      "address": 426,
+      "port": 52,
+      "security": 72,
+      "network": 72,
+      "streamSecurity": 87,
+      "subRemarks": 92,
+      "testResult": 816
+    }
+  },
+  "routings": [
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "黑名单(Blacklist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": [
+            "bittorrent"
+          ],
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": [
+            "geoip:telegram"
+          ],
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire",
+            "geosite:tld-!cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": null,
+  "groupItem": [],
+  "coreTypeItem": [
+    {
+      "configType": 1,
+      "coreType": 2
+    },
+    {
+      "configType": 2,
+      "coreType": 2
+    },
+    {
+      "configType": 3,
+      "coreType": 2
+    },
+    {
+      "configType": 4,
+      "coreType": 2
+    },
+    {
+      "configType": 5,
+      "coreType": 2
+    },
+    {
+      "configType": 6,
+      "coreType": 2
+    }
+  ]
+}

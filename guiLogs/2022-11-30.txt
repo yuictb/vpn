@@ -1,0 +1,39 @@
+2022-11-30 21:37:32,508 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.34 - 2022/08/18 | C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\v2rayN.exe
+2022-11-30 21:37:32,960 [1] DEBUG Log2 - 未能找到文件“C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\guiNConfig.json”。
+2022-11-30 21:37:32,968 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\guiNConfig.json”。
+文件名:“C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\guiNConfig.json”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 v2rayN.Utils.LoadResource(String res)
+2022-11-30 21:38:33,269 [4] INFO  Log1 - UpdateTaskRun
+2022-11-30 21:48:41,392 [12] DEBUG Log2 - The request returned with HTTP status code ServiceUnavailable
+2022-11-30 21:48:41,402 [12] DEBUG Log2 - System.Exception: The request returned with HTTP status code ServiceUnavailable
+   在 v2rayN.Base.HttpClientHelper.<GetAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 v2rayN.Handler.DownloadHandle.<DownloadStringAsync>d__10.MoveNext()
+2022-11-30 21:55:49,264 [7] DEBUG Log2 - 基础连接已经关闭: 发送时发生错误。
+2022-11-30 21:55:49,264 [7] DEBUG Log2 - System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+2022-11-30 22:16:22,562 [1] INFO  Log1 - MyAppExit Begin
+2022-11-30 22:16:22,762 [1] INFO  Log1 - MyAppExit End
+2022-11-30 22:16:22,793 [1] INFO  Log1 - MyAppExit Begin
+2022-11-30 22:16:22,860 [1] INFO  Log1 - MyAppExit End

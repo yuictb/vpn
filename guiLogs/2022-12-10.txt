@@ -1,0 +1,4 @@
+2022-12-10 18:47:04,001 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.34 - 2022/08/18 | C:\Users\001a\Downloads\Compressed\v2rayN\v2rayN-Core\v2rayN.exe
+2022-12-10 18:48:04,582 [4] INFO  Log1 - UpdateTaskRun
+2022-12-10 23:03:21,055 [1] INFO  Log1 - MyAppExit Begin
+2022-12-10 23:03:21,261 [1] INFO  Log1 - MyAppExit End
